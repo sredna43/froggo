@@ -1,0 +1,6 @@
+if SHIELD_FROGGO
+
+config ZMK_KEYBOARD_NAME
+    default "Froggo"
+
+endif
