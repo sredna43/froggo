@@ -22,11 +22,11 @@
             bindings = <&mo SETTINGS>;
         };
 
-	gaming_combo {
-		timeout-ms = <COMBO_TIMEOUT>;
-		key-positions = <16 18>;
-		bindings = <&tog GAMING>;
-	};
+        gaming_combo {
+            timeout-ms = <COMBO_TIMEOUT>;
+            key-positions = <16 18>;
+            bindings = <&tog GAMING>;
+        };
 
         meta_lock_combo {
             timeout-ms = <50>;
@@ -567,14 +567,14 @@
             >;
         };
 
-	gaming_layer {
-		bindings = <
-			&kp ESC &kp Q &kp W &kp E &kp R
-			&kp TAB &kp A &kp S &kp D &kp F
-			&kp GRAVE &kp Z &kp X &kp C &kp V
-			&kp LSHIFT &kp LCTRL &kp LALT &kp RET &kp SPACE
-		>;
-	};
+        gaming_layer {
+            bindings = <
+                    &kp GRAVE &kp Q &kp W &kp E &kp R
+                    &kp TAB &kp A &kp S &kp D &kp F
+                    &kp LSHIFT &kp Z &kp X &kp C &kp V
+                &kp ESC &kp LCTRL &kp LALT &kp RET &kp SPACE
+            >;
+        };
 
         lock_layer {
             bindings = <
