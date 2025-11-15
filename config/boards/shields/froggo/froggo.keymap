@@ -569,10 +569,10 @@
 
         gaming_layer {
             bindings = <
-                    &kp GRAVE &kp Q &kp W &kp E &kp R
+                    &kp ESC &kp Q &kp W &kp E &kp R
                     &kp TAB &kp A &kp S &kp D &kp F
                     &kp LSHIFT &kp Z &kp X &kp C &kp V
-                &kp ESC &kp LCTRL &kp LALT &kp RET &kp SPACE
+                &kp GRAVE &kp LCTRL &kp U &kp RET &kp SPACE
             >;
         };
 
