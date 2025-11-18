@@ -50,7 +50,7 @@
                     &kp B &kp N &kp M &none &none
                 &kp P &none &to GAMING_1 &none &none
             >
-        }
+        };
 
         settings_layer {
             bindings = <
