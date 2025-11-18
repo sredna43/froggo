@@ -19,7 +19,7 @@
         };
 
         gaming_combo {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <50>;
             key-positions = <16 18>;
             bindings = <&tog GAMING_1>;
         };
